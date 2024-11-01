@@ -1,0 +1,18 @@
+apiVersion: v1 
+kind: Pod 
+metadata: 
+  name: resouce 
+  labels:
+    podname: resource
+    project: expense 
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    resources_
+      request:
+        memory: 100Mi
+        cpu: 100m
+      limits:
+        memory: 120Mi
+        cpu: 120m
