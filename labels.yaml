@@ -4,7 +4,7 @@ metadata:
   name: podlabels
   labels:
     project: expense
-    module: backend'
+    module: backend
     environment: dev
 spec: 
   containers:
