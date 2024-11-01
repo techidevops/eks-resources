@@ -1,7 +1,7 @@
 apiVersion: v1 
 kind: Pod 
 metadata:
-  name: Podlabels
+  name: podlabels
   labels:
     project: expense
     module: backend'
