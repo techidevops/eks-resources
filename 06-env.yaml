@@ -6,6 +6,6 @@ spec:
   containers:
   - name: nginx
     image: nginx
-    env:
+    envFrom:
       - configMapKeyRef:
         name: nginx-config
