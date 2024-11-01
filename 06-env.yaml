@@ -7,7 +7,6 @@ spec:
   - name: nginx
     image: nginx
     env:
-      - name: course
-        value: EKS 
-      - name: clustername
-        value: expense
+      valueFrom:
+        configMapKeyRef:
+          name: nginx-config
