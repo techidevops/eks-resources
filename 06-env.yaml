@@ -7,6 +7,5 @@ spec:
   - name: nginx
     image: nginx
     env:
-      valueFrom:
-        configMapKeyRef:
-          name: nginx-config
+      - configMapKeyRef:
+        name: nginx-config
